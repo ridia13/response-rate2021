@@ -3,7 +3,7 @@
 const $screen = document.querySelector('.js-screen'),
   $msg = $screen.querySelector(".js-msg"),
   $average = $screen.querySelector(".js-average");
-  
+
 let startTime;
 let endTime;
 let timeoutId;
@@ -15,7 +15,7 @@ const sortSpeed = () => { //top5 구하기
   const topFive = sort.slice(0, 5);
   $ul = document.createElement("ul");
   $screen.append($ul);
-  topFive.forEach((topValue, i, arr) => {
+  topFive.forEach((topValue, i) => {
     const $li = document.createElement("li");
     $ul.append($li);
     $li.textContent = `${i+1}위 : ${topValue.toFixed(2)}s`;
