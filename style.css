@@ -1,0 +1,19 @@
+.screen{
+  width: 100%;
+  height: 100vh;
+}
+
+.screen#ready{
+  background-color: rgb(224, 23, 23);
+  color: #fff;
+}
+
+.screen#set{
+  background-color: gold;
+}
+
+.screen#go{
+  background-color: rgb(15, 146, 15);
+  color: #fff;
+}
+
